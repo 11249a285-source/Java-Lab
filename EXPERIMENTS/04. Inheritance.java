@@ -23,7 +23,6 @@ PROGRAM 4.1 — InheritDemo.java
      }
  }
 
-
 PROGRAM 4.2 — Hierarchical inheritance
   
 class Staff {
