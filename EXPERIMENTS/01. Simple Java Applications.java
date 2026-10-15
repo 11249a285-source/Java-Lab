@@ -25,7 +25,6 @@ PROGRAM 1.1 — StudentDemo.java
      }
  }
 
-
 PROGRAM 1.2 — MarksArray.java
   
  public class MarksArray {
@@ -44,7 +43,6 @@ PROGRAM 1.2 — MarksArray.java
          System.out.println("Average = " + avg);
      }
  }
-
 
 PROGRAM 1.3 — StringDemo.java
   
