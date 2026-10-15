@@ -1,0 +1,213 @@
+Experiment 1 
+
+1.1 — StudentDemo.java
+
+OUTPUT:
+ROLL NAME MARKS
+101 Aravind 78
+102 Divya 91
+
+1.2 — MarksArray.java
+
+OUTPUT:
+78 Pass
+91 Pass
+45 Fail
+66 Pass
+88 Pass
+Total = 368
+Average = 73.6
+
+1.3 — StringDemo.java
+
+OUTPUT:
+Length : 17
+Upper case : SCSVMV UNIVERSITY
+First six : SCSVMV
+Position of U: 7
+Replace S->X: XCXVMV Univerxity
+Original : SCSVMV University
+madam is a palindrome
+
+Experiment 2
+
+2.1 — MathUtil.java and 2.2 — UseMath.java
+
+OUTPUT:
+D:\JavaLab\Ex2> javac -d . MathUtil.java
+(this creates the folders com\scsvmv\util automatically)
+D:\JavaLab\Ex2> javac UseMath.java
+D:\JavaLab\Ex2> java UseMath
+Square of 7 = 49
+Cube of 3 = 27
+
+Experiment 3
+
+3.1 — ShapeDemo.java
+
+OUTPUT:
+Circle area = 78.54
+Rect area = 24.00
+
+3.2 — SortDemo.java
+
+OUTPUT:
+[Anu(92), Kiran(67), Ravi(45)]
+
+Experiment 4
+
+4.1 — InheritDemo.java
+
+OUTPUT:
+Name : Meena
+Salary : 75000.0
+Dept : CSE
+
+4.2 — Hierarchical inheritance
+
+OUTPUT:
+Kumar -> Teacher
+Selvam -> Driver
+Raj -> Staff
+
+Experiment 5
+
+5.1 — ThreadDemo.java
+
+OUTPUT:
+Thread A : 1
+Thread B : 1
+Thread A : 2
+Thread B : 2
+Thread B : 3
+Thread A : 3
+
+5.2 — SyncDemo.java
+
+OUTPUT:
+With synchronized : Final count = 20000 (always correct)
+Now delete the word synchronized and run again:
+Without synchronized : Final count = 17342 (wrong, and different each time)
+
+Experiment 6
+
+6.1 — PredefinedDemo.java
+
+OUTPUT:
+Array error : index 5
+Math error : / by zero
+Null error : the object was never created
+finally : always runs
+Program continued normally.
+
+6.2 — UserDefinedDemo.java
+
+OUTPUT:
+Age 21 accepted
+Rejected : Age 15 is below 18
+
+Experiment 7
+
+7.1 — WriteFile.java and 7.2 — ReadFile.java
+
+OUTPUT:
+D:\JavaLab\Ex7> java WriteFile
+File written successfully.
+D:\JavaLab\Ex7> java ReadFile
+ROLL NAME MARKS
+101 Aravind 78
+102 Divya 91
+103 Karthik 45
+
+Experiment 8
+
+8.1 — HelloApplet.java
+
+OUTPUT:
+D:\JavaLab\Ex8> javac HelloApplet.java
+D:\JavaLab\Ex8> appletviewer HelloApplet.html
+A window appears showing:
+Welcome to SCSVMV
+a red circle beside a green rectangle
+
+8.2 — Life cycle in four lines of printing
+
+OUTPUT:
+init()
+start()
+paint()
+stop() <- window minimised
+start() <- window restored
+paint()
+stop() <- window closed
+destroy()
+
+8.3 — Palette.java
+
+OUTPUT:
++--------------------------------------------+
+| [RED] [GREEN] [BLUE] [YELLOW] |
+| |
+| +--------------------------------------+ |
+| | big box, filled with the colour | |
+| | you clicked | |
+| +--------------------------------------+ |
++--------------------------------------------+
+
+Experiment 9
+
+9.1 — BorderDemo.java
+
+OUTPUT:
+BorderDemo : NORTH across the top, SOUTH across the bottom,
+WEST and EAST at the sides, CENTER fills the middle.
+Enlarge the window - only CENTER grows.
+
+9.2 — GridDemo.java
+
+OUTPUT:
+GridDemo : twelve equal keys in four rows of three.
+
+9.3 — FlowDemo.java
+
+OUTPUT:
+FlowDemo : five buttons in a row; narrow the window and
+they wrap onto a second row.
+
+9.4 — LoginForm.java
+
+OUTPUT:
++---------------------------+
+| User Name [ cse ] |
+| Password [ **** ] |
+| [ Login ] |
+| Login successful |
++---------------------------+
+Typing anything else gives: Invalid user or password
+
+Experiment 10
+
+Output: Fetching Student Records from MySQL Database Using JDBC
+REM Windows: use a semicolon before the jar name
+javac -cp .;mysql-connector-j-8.3.0.jar FetchData.java
+java -cp .;mysql-connector-j-8.3.0.jar FetchData
+# Linux / macOS: use a colon
+javac -cp .:mysql-connector-j-8.3.0.jar FetchData.java
+java -cp .:mysql-connector-j-8.3.0.jar FetchData
+
+10.1 — FetchData.java
+
+OUTPUT:
+REG NAME MARKS
+101 Aravind 78
+102 Divya 91
+
+10.2 — InsertData.java
+
+OUTPUT:
+1 row inserted.
+Run FetchData again:
+REG NAME MARKS
+101 Aravind 78
+102 Divya 91
+103 Karthik 45
