@@ -123,3 +123,16 @@ Branch  [ CSE          v ]
 [ ] Hostel required
           [ Submit ]
 Divya Lakshmi | CSE | Female | Hostel: Yes
+
+Experiment 10
+
+Output:
+Register number to search : 102
+102  Divya  91
+1 row(s) affected.
+102  Divya  95
+Register number to delete : 102
+1 row(s) affected.
+Records after deletion:
+101  Aravind  78
+103  Karthik  45
