@@ -87,3 +87,27 @@ Ravi FAIL
 Passed  : 2
 Failed  : 1
 Average : 71.33
+
+Experiment 8
+
+Output:
+Click a bar
+
+ 78      91      45      66      88
++-----+ +-----+ +-----+ +-----+ +-----+
+|     | |     | |     | |     | |     |
+|     | |     | |     | |     | |     |
+|     | |     | |     | |     | |     |
+|     | |     | |     | |     | |     |
+|     | |     | |     | |     | |     |
+|     | |     | |     | |     | |     |
+|     | |     | |     | |     | |     |
+|     | |     | |     | |     | |     |
++-----+ +-----+ +-----+ +-----+ +-----+
+   1       2       3       4       5
+
+Green bars = Pass
+Red bar = Fail
+
+When clicking the second bar:
+Subject 2 = 91
