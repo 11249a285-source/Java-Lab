@@ -67,3 +67,23 @@ Dispensed 2000.0, balance 3000.0, withdrawn today 2000.0
 Refused : 350.0 is not a multiple of 100
 Dispensed 2000.0, balance 1000.0, withdrawn today 4000.0
 Refused : Balance is only 1000.0
+
+Experiment 7
+
+Input: student.txt
+1,Aravind,85
+2,Divya,92
+3,Karthik,ABC
+4,Ravi,37
+
+Output:
+Invalid mark skipped: 3,Karthik,ABC
+result.txt created. Passed 2, failed 1
+
+Contents of result.txt:
+Aravind PASS
+Divya PASS
+Ravi FAIL
+Passed  : 2
+Failed  : 1
+Average : 71.33
