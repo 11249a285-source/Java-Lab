@@ -111,3 +111,15 @@ Red bar = Fail
 
 When clicking the second bar:
 Subject 2 = 91
+
+Experiment 9
+
+Output:
+Student Registration
+
+Name    [ Divya Lakshmi  ]
+Branch  [ CSE          v ]
+(o) Male    ( ) Female
+[ ] Hostel required
+          [ Submit ]
+Divya Lakshmi | CSE | Female | Hostel: Yes
